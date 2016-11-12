@@ -1,0 +1,85 @@
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#dd424242"
+            android:id="@+id/loading"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#dd424242"
+            android:id="@+id/instructions"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_arrow_downward_white_48dp"
+                android:layout_marginTop="60dp"
+                android:contentDescription="downarrow"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/pullrefresh_instruction"
+                android:layout_marginTop="15dp"
+                android:textColor="#fff"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+
+        <android.support.design.widget.CoordinatorLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            xmlns:app="http://schemas.android.com/apk/res-auto">
+
+            <include layout="@layout/appbarlayout_scroll"/>
+
+            <android.support.v4.widget.SwipeRefreshLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/swiperefresh"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+                <!--<include layout="@layout/app_listview_norefresh"
+                         android:id="@+id/app_listview_layout"/>-->
+
+                <ListView
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/app_listview_norefresh"/>
+
+            </android.support.v4.widget.SwipeRefreshLayout>
+
+        </android.support.design.widget.CoordinatorLayout>
+    </RelativeLayout>
+
+    <android.support.design.widget.NavigationView
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:id="@+id/nav_view"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/drawer_header_view"
+        app:menu="@menu/drawer_menu"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+
+    <!--<include
+        layout="@layout/drawerlayout"
+        android:id="@+id/left_drawer"/>-->
+
+</android.support.v4.widget.DrawerLayout>

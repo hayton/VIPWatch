@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">VIP Alert</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="action_refresh">Refresh</string>
+    <string name="text_watchlist">Watchlist:</string>
+
+    <string name="server_no_connection">Cannot connect to server </string>
+    <string name="server_no_authenticate">Cannot authenticate with server </string>
+    <string name="server_error">Server error </string>
+    <string name="server_network_error">Network error </string>
+    <string name="server_parse_error">Parse error </string>
+
+    <string name="locationpager_area">Area</string>
+    <string name="locationpager_visitor">Visitor</string>
+
+    <string name="pullrefresh_instruction">Pull down to refresh the alert list</string>
+
+    <!-- activity_login.xml -->
+    <string name="et_hint_email">Email</string>
+    <string name="et_hint_password">Password</string>
+    <string name="tv_avtivity">Activity:</string>
+    <string name="btn_text_login">Login</string>
+    <string name="btn_text_forget">Forget password</string>
+
+    <!-- activity_retrivepassword.xml -->
+    <string name="btn_text_retrivepass">Retrieve Password</string>
+
+    <!-- activity_setting.xml -->
+    <string name="tv_stopalert_for">Stop alert for:</string>
+    <string name="tv_minutes">minutes</string>
+    <string name="btn_text_save">Save</string>
+    <string name="tv_export_visitor">Export Visitor List</string>
+    <string name="btn_text_export">Export</string>
+    <string name="tv_set_ringtone">Set ringtone</string>
+    <string name="btn_text_change">Change</string>
+
+    <!-- activity_visitordetail.xml -->
+    <string name="tv_email">Email:</string>
+    <string name="tv_phone">Phone:</string>
+    <string name="tv_preference">Preference:</string>
+    <string name="tv_notes">Notes</string>
+    <string name="tv_followup">Follow up action</string>
+
+    <!-- drawer_header_view.xml -->
+    <string name="tv_username">Username:</string>
+
+    <!-- item_alertlist.xml -->
+    <string name="tv_visitedarea">Visited area:</string>
+
+    <!-- item_watchlist.xml -->
+    <string name="tv_company">Company:</string>
+
+    <!-- drawer_menu.xml -->
+    <string name="menu_watchlist">Watch List</string>
+    <string name="menu_visitorlocation">Visitor Location</string>
+    <string name="menu_alertcenter">Alert Center</string>
+    <string name="menu_logout">Logout</string>
+
+    <!-- menu_alertcenter.xml -->
+    <string name="menu_clear">Clear</string>
+
+    <!-- menu_visitordetail.xml -->
+    <string name="menu_edit">Edit</string>
+
+    <!-- login result -->
+    <string name="login_success">Login succeed</string>
+    <string name="login_failed">Login failed</string>
+    <string name="login_unauthorized">Unauthorized</string>
+
+    <!-- VisitorDetailActivity -->
+    <string name="alert_title">Hint</string>
+    <string name="alert_message">Would like to save the changes?</string>
+    <string name="alert_save">Save</string>
+    <string name="alert_cancel">Cancel</string>
+
+    <!-- 401 error alert -->
+    <string name="alert_message_401">Your account has been logged in by another user, please re-login.</string>
+    <string name="alert_ok_401">OK</string>
+    <string name="alert_cancel_401">Cancel</string>
+
+    <!-- Toast message -->
+    <string name="toast_choose_activity">Please login with the current activity.</string>
+    <string name="toast_setting_success">Setting saved</string>
+    <string name="toast_csv_exported">The list has been sent to your email.</string>
+    <string name="toast_csv_failed">Export failed</string>
+    <string name="toast_visitordetail_saved">Detail saved</string>
+
+    <!-- LocationList_visitor_adapter -->
+    <string name="tv_item_location">Location:</string>
+
+
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:paddingLeft="16dp"
+              android:gravity="center_vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_vip_name"
+        android:textSize="22sp"
+        android:textColor="#424242"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/alert_time"
+        android:textSize="16sp"
+        android:textColor="#757575"/>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingRight="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_visitedarea"
+            android:id="@+id/tv_visitedarea"
+            android:textSize="16sp"
+            android:textColor="#757575"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:id="@+id/alert_booth"
+            android:layout_toRightOf="@+id/tv_visitedarea"
+            android:textSize="16sp"
+            android:textColor="#757575"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/alert_booth"
+            android:id="@+id/alert_listdesc"
+            android:textSize="16sp"
+            android:textColor="#757575"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

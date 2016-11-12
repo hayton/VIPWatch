@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="76dp" android:paddingTop="4dp"
+    android:paddingBottom="4dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/vip_photo"
+        android:layout_centerVertical="true"
+        android:paddingRight="10dp"
+        android:src="@drawable/head_image"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:layout_toEndOf="@+id/vip_photo">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_vip_name"
+            android:textSize="22sp"
+            android:textColor="#424242"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_title"
+            android:layout_marginLeft="8dp"
+            android:layout_gravity="center_vertical"
+            android:textSize="15sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_company"
+                android:textSize="15sp"
+                android:id="@+id/sec_attribute"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_vip_company"
+                android:layout_marginLeft="4dp"
+                android:textSize="15sp"
+                android:paddingBottom="4dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

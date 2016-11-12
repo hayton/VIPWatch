@@ -1,0 +1,195 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/loading"
+        android:background="#dd424242"/>
+
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <include layout="@layout/appbarlayout_scroll"/>
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                tools:context="com.example.rfidwireframe.VisitorEditDetailsActivity">
+
+            <!--<RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="#E0E0E0"
+                android:id="@+id/phone_section"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="8dp"
+                    android:text="Phone"
+                    android:textColor="#00867d"
+                    android:layout_centerVertical="true"
+                    android:id="@+id/tv_phoneheader"/>-->
+        
+                <!--<View
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/ic_add_black_48dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentEnd="true"
+                    android:id="@+id/add_phone"/>-->
+
+            <!--</RelativeLayout>-->
+
+            <!--<View
+                android:layout_width="match_parent"
+                android:layout_height="0.3dp"
+                android:background="#757575"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/detail_phone"
+                android:minHeight="20dp"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="#E0E0E0"
+                android:id="@+id/email_section"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="8dp"
+                    android:text="Email"
+                    android:textColor="#00867d"
+                    android:layout_centerVertical="true"
+                    android:id="@+id/tv_emailheader"/>-->
+
+                <!--<View
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:background="@drawable/ic_add_black_48dp"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentEnd="true"
+                        android:id="@+id/add_email"/>-->
+            <!--</RelativeLayout>-->
+
+            <!--<View
+                android:layout_width="match_parent"
+                android:layout_height="0.3dp"
+                android:background="#757575"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/detail_email"
+                android:minHeight="20dp"/>-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="#E0E0E0"
+                android:text="Notes"
+                android:gravity="center_vertical"
+                android:paddingLeft="8dp"
+                android:textColor="#00867d"
+                android:layout_marginTop="20dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.3dp"
+                android:background="#757575"
+                android:layout_marginBottom="10dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="100dp"
+                android:gravity="top|left"
+                android:padding="10dp"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/et_notes"
+                android:background="@drawable/rectangle_edittext"/>
+
+            <!--<TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@color/material_grey_300"
+                android:text="Completed action"
+                android:gravity="center_vertical"
+                android:paddingLeft="8dp"
+                android:textColor="#00867d"
+                android:layout_marginTop="20dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.3dp"
+                android:background="@color/material_grey_600"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Exchange contacts"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Demonstration"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Product introduction"
+                android:layout_marginBottom="10dp"/>-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="#E0E0E0"
+                android:text="Follow-up action"
+                android:gravity="center_vertical"
+                android:paddingLeft="8dp"
+                android:textColor="#00867d"
+                android:layout_marginTop="20dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.3dp"
+                android:background="#757575"
+                android:layout_marginBottom="10dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="100dp"
+                android:gravity="top|left"
+                android:padding="10dp"
+                android:id="@+id/et_followup"
+                android:background="@drawable/rectangle_edittext"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.design.widget.CoordinatorLayout>
+</RelativeLayout>

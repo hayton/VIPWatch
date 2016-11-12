@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VIP Alert</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">设定</string>
+
+    <string name="action_refresh">更新</string>
+    <string name="text_watchlist">观察列表:</string>
+
+    <string name="server_no_connection">无法连接到服务器</string>
+    <string name="server_no_authenticate">无法认证身份</string>
+    <string name="server_error">服务器错误</string>
+    <string name="server_network_error">网络错误</string>
+    <string name="server_parse_error">解析错误</string>
+
+    <string name="locationpager_area">区域</string>
+    <string name="locationpager_visitor">访问人员</string>
+
+    <string name="pullrefresh_instruction">下拉以更新列表</string>
+
+    <!-- activity_login.xml -->
+    <string name="et_hint_email">电邮</string>
+    <string name="et_hint_password">密码</string>
+    <string name="tv_avtivity">活动:</string>
+    <string name="btn_text_login">登录</string>
+    <string name="btn_text_forget">忘记密码</string>
+
+    <!-- activity_retrivepassword.xml -->
+    <string name="btn_text_retrivepass">重新获取密码</string>
+
+    <!-- activity_setting.xml -->
+    <string name="tv_stopalert_for">停止推送服务:</string>
+    <string name="tv_minutes">分钟</string>
+    <string name="btn_text_save">保存</string>
+    <string name="tv_export_visitor">导出访问人员列表</string>
+    <string name="btn_text_export">导出</string>
+    <string name="tv_set_ringtone">设置铃声</string>
+    <string name="btn_text_change">更改</string>
+
+    <!-- activity_visitordetail.xml -->
+    <string name="tv_email">电邮:</string>
+    <string name="tv_phone">电话:</string>
+    <string name="tv_preference">感兴趣的项目:</string>
+    <string name="tv_notes">笔记</string>
+    <string name="tv_followup">跟进动作</string>
+
+    <!-- drawer_header_view.xml -->
+    <string name="tv_username">用户名:</string>
+
+    <!-- item_alertlist.xml -->
+    <string name="tv_visitedarea">访问过的区域:</string>
+
+    <!-- item_watchlist.xml -->
+    <string name="tv_company">公司:</string>
+
+    <!-- drawer_menu.xml -->
+    <string name="menu_watchlist">观察列表</string>
+    <string name="menu_visitorlocation">访问人员位置</string>
+    <string name="menu_alertcenter">推送列表</string>
+    <string name="menu_logout">登出</string>
+
+    <!-- menu_alertcenter.xml -->
+    <string name="menu_clear">清除</string>
+
+    <!-- menu_visitordetail.xml -->
+    <string name="menu_edit">更改</string>
+
+    <!-- login result -->
+    <string name="login_success">登录成功</string>
+    <string name="login_failed">登录失败</string>
+    <string name="login_unauthorized">未授权</string>
+
+    <!-- VisitorDetailActivity -->
+    <string name="alert_title">提示</string>
+    <string name="alert_message">要保存变更?</string>
+    <string name="alert_save">保存</string>
+    <string name="alert_cancel">取消</string>
+
+    <!-- 401 error alert -->
+    <string name="alert_message_401">你的賬戶已被登錄, 請重新登錄</string>
+    <string name="alert_ok_401">确定</string>
+    <string name="alert_cancel_401">取消</string>
+
+    <!-- Toast message -->
+    <string name="toast_choose_activity">请用目前的活动登录</string>
+    <string name="toast_setting_success">设置已保存</string>
+    <string name="toast_csv_exported">列表已经发到你的邮箱</string>
+    <string name="toast_csv_failed">导出失败</string>
+    <string name="toast_visitordetail_saved">资料已保存</string>
+
+    <!-- LocationList_visitor_adapter -->
+    <string name="tv_item_location">位置:</string>
+
+
+</resources>

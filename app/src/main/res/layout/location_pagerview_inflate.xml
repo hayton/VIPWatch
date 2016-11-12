@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <!--<android.support.v4.widget.SwipeRefreshLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/swiperefresh_exp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">-->
+
+        <include
+            layout="@layout/visitorlocation_listview"
+            android:id="@+id/lv_visitorlocation"/>
+
+    <!--</android.support.v4.widget.SwipeRefreshLayout>-->
+
+    <!--<android.support.v4.widget.SwipeRefreshLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/swiperefresh_visitor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">-->
+        <include
+            layout="@layout/app_listview_norefresh"
+            android:id="@+id/lv_app_norefresh"/>
+
+    <!--</android.support.v4.widget.SwipeRefreshLayout>-->
+
+</FrameLayout>

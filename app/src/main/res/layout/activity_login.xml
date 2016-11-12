@@ -1,0 +1,117 @@
+<!--<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">-->
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:id="@+id/loading"
+            android:background="#dd424242"/>
+
+        <ScrollView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="match_parent" android:paddingLeft="@dimen/abc_action_bar_progress_bar_size"
+            android:paddingRight="@dimen/abc_action_bar_progress_bar_size"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".Login" android:orientation="vertical">
+
+            <TextView android:text="@string/app_name" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:layout_gravity="center" android:textSize="30sp"
+                android:layout_marginBottom="40dp"
+                android:layout_marginTop="20dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:id="@+id/et_email"
+                android:inputType="textEmailAddress"
+                android:hint="@string/et_hint_email"
+                android:gravity="center"
+                android:background="@drawable/rectangle_edittext"
+                android:layout_marginBottom="15dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:id="@+id/et_password"
+                android:inputType="textPassword"
+                android:hint="@string/et_hint_password"
+                android:gravity="center"
+                android:background="@drawable/rectangle_edittext"
+                android:layout_marginBottom="15dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tv_avtivity"
+                    android:layout_gravity="center"/>
+
+                <Spinner
+                    android:id="@+id/sp_eventlist"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="4dp"
+                    android:background="@drawable/rectangle_edittext"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+        <!--<RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="20dp">
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="记住密码"
+                android:id="@+id/cb_remember"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="更改密码"
+                android:textSize="17sp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"/>
+
+        </RelativeLayout>-->
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:id="@+id/login"
+                android:text="@string/btn_text_login"
+                android:layout_marginBottom="7dp"
+                android:onClick="onClick"/>
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:id="@+id/forget"
+                android:text="@string/btn_text_forget"
+                android:onClick="onClick"/>
+
+        </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
